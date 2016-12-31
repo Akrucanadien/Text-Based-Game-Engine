@@ -16,3 +16,6 @@ class Button:
         self.text = text
         self.location = location
         self.background = background
+
+    def wire(self, action):
+        self.action = action
