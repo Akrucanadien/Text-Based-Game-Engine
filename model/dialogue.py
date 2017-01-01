@@ -12,4 +12,6 @@ class Dialogue:
         self._create(text, location, background)
 
     def _create(self, text, location, background):
-        
+        self.text = text
+        self.location = location
+        self.background = background
